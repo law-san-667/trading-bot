@@ -14,7 +14,7 @@ class Config:
     LEVERAGE = int(os.getenv('LEVERAGE', '3'))
     POSITION_SIZE = float(os.getenv('POSITION_SIZE', '10'))
     LONG_ENTRY_THRESHOLD = float(os.getenv('LONG_ENTRY_THRESHOLD', '0.9993'))
-    SHORT_ENTRY_THRESHOLD = float(os.getenv('SHORT_ENTRY_THRESHOLD', '1.0005'))
+    SHORT_ENTRY_THRESHOLD = float(os.getenv('SHORT_ENTRY_THRESHOLD', '1.0001'))
     EXIT_THRESHOLD = float(os.getenv('EXIT_THRESHOLD', '1.0000'))
     SLEEP_TIME = int(os.getenv('SLEEP_TIME', '1'))
 
