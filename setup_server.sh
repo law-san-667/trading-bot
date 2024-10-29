@@ -40,3 +40,4 @@ mkdir -p ~/trading-bot/{logs,data}
 
 echo "Configuration de base terminée!"
 echo "N'oubliez pas de vous déconnecter et reconnecter pour appliquer les changements de groupe Docker"
+
